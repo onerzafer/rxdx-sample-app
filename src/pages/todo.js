@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from '../../src/connect';
+import { connect } from 'rxdx/lib/rxdx';
 import { ToDoHeader } from "../components/todo-header/todo-header";
 import { Store } from '../stores/store';
 import { ToDoItem } from '../components/todo-list-item/todo-list-item';

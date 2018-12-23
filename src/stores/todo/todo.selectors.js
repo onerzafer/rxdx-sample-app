@@ -1,4 +1,4 @@
-import { createSelector } from "../../../src/selectors";
+import { createSelector } from "rxdx/lib/rxdx";
 
 const combinedStateSelector = state => state.todos;
 export const todoListStateSelector = createSelector(

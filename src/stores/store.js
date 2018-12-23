@@ -1,8 +1,10 @@
-import createStore from "../../src/store";
-import applyMiddleware from "../../src/applyMiddleware";
-import combineReducers from "../../src/combineReducers";
-import { devToolsMiddleware } from "../../src/devToolsMiddleware";
-import { effectsMiddleware } from "../../src/effectsMiddleware";
+import {
+  createStore,
+  applyMiddleware,
+  combineReducers,
+  devToolsMiddleware,
+  effectsMiddleware
+} from "rxdx/lib/rxdx";
 import { todoEffects } from "./todo/todo.effects";
 import { todoReducer } from "./todo/todo.reducer";
 

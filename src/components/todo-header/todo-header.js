@@ -1,8 +1,9 @@
 import React from "react";
-import { connect } from "../../../src/connect";
+import { connect } from "rxdx/lib/rxdx";
 import { Store } from "../../stores/store";
 import * as fromToDoStore from "../../stores/todo/todo.actions";
 import { todoListFilterSelector } from "../../stores/todo/todo.selectors";
+import { createStore } from "redux/lib/redux";
 
 export const ToDoHeaderComp = ({filter}) => {
   let val = undefined;
