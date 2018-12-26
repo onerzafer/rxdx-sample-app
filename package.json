@@ -7,7 +7,7 @@
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.1",
     "redux": "^4.0.1",
-    "rxdx": "^0.0.3-alpha",
+    "rxdx": "^0.0.5-alpha",
     "rxjs": "^6.3.3"
   },
   "scripts": {
